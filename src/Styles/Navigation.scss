@@ -1,0 +1,16 @@
+@import './Variable.scss';
+
+ul {
+    list-style-type: none;
+    margin: $margin;
+    padding: $padding;
+    background-color: green;
+  }
+
+  .contact {
+    background-color: white;
+  }
+
+  button{
+    @include buttonStyle(green,12px)
+  }
